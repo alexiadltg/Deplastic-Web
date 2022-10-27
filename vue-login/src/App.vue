@@ -1,8 +1,18 @@
 <template>
 <v-app>
-  <v-app-bar app dark color=green >
+  <v-app-bar app dark color=green >    
+     <v-img
+          lazy-src="https://cdn.discordapp.com/attachments/1032596789473333298/1035162795563561040/unknown.png"
+          max-height="50"
+          max-width="50"
+          src="https://cdn.discordapp.com/attachments/1032596789473333298/1035162795563561040/unknown.png"
+>
+</v-img>
     <v-toolbar-title>Deplastic</v-toolbar-title>
-    <v-spacer></v-spacer>
+    <v-spacer>
+ 
+</v-spacer>
+
     <v-btn text rounded>Home</v-btn>
     <v-btn text rounded>Login</v-btn>
     <v-btn text rounded>About</v-btn>
@@ -33,7 +43,7 @@
       <v-divider></v-divider>
 
   <v-card-actions>
-    <btn color="info">Login</btn>
+    <v-btn dark color="green">Login</v-btn>
     
   </v-card-actions>
   

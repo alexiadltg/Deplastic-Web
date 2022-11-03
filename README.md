@@ -1,6 +1,7 @@
 # Deplastic-Web
 
-[![Node.js CI](https://github.com/2DAMA-Grup8/Deplastic-Web/actions/workflows/node.js.yml/badge.svg)](https://github.com/2DAMA-Grup8/Deplastic-Web/actions/workflows/node.js.yml)[![GitHub pull requests](https://img.shields.io/github/issues-pr/2DAMA-Grup8/Deplastic-Web.svg)](https://github.com/2DAMA-Grup8/Deplastic-Web/pulls)
+[![Node.js CI](https://github.com/2DAMA-Grup8/Deplastic-Web/actions/workflows/node.js.yml/badge.svg)](https://github.com/2DAMA-Grup8/Deplastic-Web/actions/workflows/node.js.yml)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/2DAMA-Grup8/Deplastic-Web.svg)](https://github.com/2DAMA-Grup8/Deplastic-Web/pulls)
 [![GitHub issues](https://img.shields.io/github/issues-raw/2DAMA-Grup8/Deplastic-Web.svg)](https://github.com/2DAMA-Grup8/Deplastic-Web/issues)
 [![PRs Welcome](https://img.shields.io/github/license/2DAMA-Grup8/Deplastic-Web.svg)](http://makeapullrequest.com)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/2DAMA-Grup8/Deplastic-Web.svg)
@@ -10,6 +11,7 @@
 ## Table of Contents
 
 - [Project setup](#Setup)
+- [Basic Commands](#Commands)
 - [Customize configuration](#Configuration)
 
 ### Setup
@@ -22,19 +24,18 @@ $ cd Deplastic-Web
 $ npm install
 ```
 
-Compiles and hot-reloads for development:
-
+### Commands
+- Run the program:
 ```
 $ npm run serve
 ```
 
-Compiles and minifies for production:
+- Build the program:
 ```
 $ npm run build
 ```
 
-Lints and fixes files:
-
+- Check errors:
 ```
 $ npm run lint
 ```
